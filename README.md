@@ -26,7 +26,7 @@ The application continuously tracks both regions and extracts the corresponding 
 
 ## Methodology
 
-The entire blood pressure estimation pipeline is implemented in a single script (`camera4.py`). The application performs the following processing stages:
+The entire blood pressure estimation pipeline is implemented in a single script (`code.py`). The application performs the following processing stages:
 
 ### Face and Hand Detection
 
