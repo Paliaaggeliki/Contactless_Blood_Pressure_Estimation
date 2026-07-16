@@ -6,7 +6,7 @@ Blood pressure is one of the most important physiological indicators for monitor
 
 This project presents a **contactless blood pressure estimation system** using a standard webcam and **remote Photoplethysmography (rPPG)**. The application simultaneously extracts physiological signals from the user's **face** and **hand**, estimates the **Pulse Transit Time (PTT)** between the two regions, and computes **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)**.
 
-The project was developed as part of my internship and demonstrates a proof-of-concept implementation of a non-invasive and low-cost blood pressure estimation system.
+The project was developed as part of my internship at the **Lab of Medical Physics and Digital Innovation** of the **Aristotle University of Thessaloniki (AUTH)**. It demonstrates a proof-of-concept implementation of a non-invasive and low-cost blood pressure estimation system.
 
 ---
 
@@ -78,13 +78,12 @@ The application operates through a simple measurement workflow:
 
 Clone or download the repository and ensure that all required Python packages are installed.
 
-### Required Libraries
+### Installation & Dependencies
 
-- OpenCV
-- MediaPipe
-- NumPy
-- Pandas
-- SciPy
+Ensure you have Python 3.8+ installed. You can install all the required libraries at once using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
 
 ### Windows
 
@@ -127,4 +126,8 @@ Each completed measurement generates a timestamped CSV file containing:
 - Frames Per Second (FPS)
 - Reference PTT used during estimation
 
-The generated CSV file can be used for further analysis or visualization of the estimated physiological parameters.
+The generated CSV file can be used for fu---
+
+## Medical Disclaimer
+
+This project is developed strictly for educational and research purposes as a proof-of-concept during an internship. It is **not** a medical device, and the estimations provided should not be used for clinical diagnostic purposes or medical decisions.
