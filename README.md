@@ -84,6 +84,7 @@ Ensure you have Python 3.8+ installed. You can install all the required librarie
 
 ```bash
 pip install -r requirements.txt
+```
 
 ### Windows
 
