@@ -126,7 +126,6 @@ Each completed measurement generates a timestamped CSV file containing:
 - Frames Per Second (FPS)
 - Reference PTT used during estimation
 
-The generated CSV file can be used for fu---
 
 ## Medical Disclaimer
 
