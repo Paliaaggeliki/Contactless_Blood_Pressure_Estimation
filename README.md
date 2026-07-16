@@ -4,7 +4,7 @@
 
 Blood pressure is one of the most important physiological indicators for monitoring cardiovascular health and diagnosing conditions such as hypertension and cardiovascular diseases. Conventional blood pressure measurement relies on cuff-based devices, which require direct physical contact with the user and are not suitable for continuous or remote monitoring.
 
-This project presents a **contactless blood pressure estimation system** using a standard webcam and **remote Photoplethysmography (rPPG)**. The application simultaneously extracts physiological signals from the user's **face** and **hand**, estimates the **Pulse Transit Time (PTT)** between the two regions, and computes **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)** using a hemodynamic model.
+This project presents a **contactless blood pressure estimation system** using a standard webcam and **remote Photoplethysmography (rPPG)**. The application simultaneously extracts physiological signals from the user's **face** and **hand**, estimates the **Pulse Transit Time (PTT)** between the two regions, and computes **Systolic Blood Pressure (SBP)** and **Diastolic Blood Pressure (DBP)**.
 
 The project was developed as part of my internship and demonstrates a proof-of-concept implementation of a non-invasive and low-cost blood pressure estimation system.
 
